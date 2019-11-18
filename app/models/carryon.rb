@@ -1,0 +1,2 @@
+class Carryon < ApplicationRecord
+end
