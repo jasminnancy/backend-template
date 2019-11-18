@@ -1,7 +1,7 @@
 require 'net/http'
 require 'uri'
 
-class PlantsController < ApplicationController
+class FetchesController < ApplicationController
     def create
         # location's zip code + key for request to external API
         key = 'zip=' + params['query'] + '&appid=4d20f38463d855c05b22ad489179acda'
